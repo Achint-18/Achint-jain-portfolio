@@ -16,6 +16,19 @@ export interface SiteConfig {
   keywords: string[];
 }
 
+const getBaseUrl = (): string => {
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
+  }
+  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
+    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
+  }
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
+  }
+  return "https://achint-jain-portfolio.vercel.app";
+};
+
 export const siteConfig: SiteConfig = {
   name: "Achint Jain",
   title: "Achint Jain | Computer Science Student & AI/ML Developer",
@@ -25,7 +38,7 @@ export const siteConfig: SiteConfig = {
   headlineDescription:
     "Computer Science student focused on AI/ML and Generative AI, building practical applications with modern AI technologies.",
   location: "Rajasthan, India",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://achint-jain.vercel.app",
+  url: getBaseUrl(),
   email: "jachint85@gmail.com",
   github: "https://github.com/Achint-18",
   linkedin: "https://www.linkedin.com/in/achint-jain-82ba58329/",
