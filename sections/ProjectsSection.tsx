@@ -1,8 +1,8 @@
 "use client";
 
 import { projectsData, Project } from "@/data/portfolio";
+import { Github } from "@/components/icons/SocialIcons";
 import {
-  Github,
   ExternalLink,
   Layers,
   Sparkles,

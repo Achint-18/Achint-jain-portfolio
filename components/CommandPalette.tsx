@@ -2,11 +2,10 @@
 
 import { useState, useEffect, useRef } from "react";
 import { siteConfig } from "@/data/siteConfig";
+import { Github, Linkedin } from "@/components/icons/SocialIcons";
 import {
   Search,
   FileText,
-  Github,
-  Linkedin,
   Mail,
   Home,
   User,
@@ -169,7 +168,7 @@ export default function CommandPalette({
     {
       id: "linkedin",
       title: "Open LinkedIn Profile",
-      subtitle: "Connect on LinkedIn",
+      subtitle: "linkedin.com/in/achint-jain-82ba58329",
       category: "External",
       icon: Linkedin,
       action: () => {

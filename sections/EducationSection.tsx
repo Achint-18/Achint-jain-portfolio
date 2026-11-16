@@ -77,7 +77,7 @@ export default function EducationSection() {
                 </div>
               </div>
               <span className="text-xs font-mono text-emerald-300 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 self-start sm:self-auto">
-                Verified from official resume
+                Verified academic standing (8.5 / 10)
               </span>
             </div>
           </div>

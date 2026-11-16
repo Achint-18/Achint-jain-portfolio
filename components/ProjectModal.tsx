@@ -2,9 +2,9 @@
 
 import { useEffect } from "react";
 import { Project } from "@/data/portfolio";
+import { Github } from "@/components/icons/SocialIcons";
 import {
   X,
-  Github,
   ExternalLink,
   Cpu,
   Layers,

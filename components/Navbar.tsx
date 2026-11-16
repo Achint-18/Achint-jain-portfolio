@@ -3,12 +3,11 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { siteConfig } from "@/data/siteConfig";
+import { Github, Linkedin } from "@/components/icons/SocialIcons";
 import {
   Menu,
   X,
   FileText,
-  Github,
-  Linkedin,
   Command,
   ArrowUpRight,
   Sparkles,

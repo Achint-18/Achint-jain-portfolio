@@ -2,12 +2,11 @@
 
 import { useState } from "react";
 import { siteConfig } from "@/data/siteConfig";
+import { Github, Linkedin } from "@/components/icons/SocialIcons";
 import {
   Mail,
   Copy,
   Check,
-  Github,
-  Linkedin,
   FileText,
   ArrowUpRight,
   Sparkles,

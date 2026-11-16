@@ -1,7 +1,8 @@
 "use client";
 
 import { siteConfig } from "@/data/siteConfig";
-import { Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { Github, Linkedin } from "@/components/icons/SocialIcons";
+import { Mail, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (

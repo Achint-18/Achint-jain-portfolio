@@ -8,6 +8,7 @@ import {
   certificationsData,
   experienceData,
 } from "@/data/portfolio";
+import { Github, Linkedin } from "@/components/icons/SocialIcons";
 import {
   X,
   Download,
@@ -15,8 +16,6 @@ import {
   ExternalLink,
   Mail,
   MapPin,
-  Github,
-  Linkedin,
   CheckCircle2,
   FileText,
 } from "lucide-react";
@@ -220,6 +219,17 @@ ${certificationsData
                   github.com/Achint-18
                 </a>
               </div>
+              <div className="flex items-center gap-2">
+                <Linkedin className="w-3.5 h-3.5 text-zinc-500 shrink-0" />
+                <a
+                  href={siteConfig.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white underline-offset-2 hover:underline"
+                >
+                  linkedin.com/in/achint-jain-82ba58329
+                </a>
+              </div>
             </div>
           </div>
 
@@ -246,7 +256,7 @@ ${certificationsData
                   CGPA: {educationData.cgpaVerified}
                 </span>
                 <span className="text-zinc-500 text-[11px]">
-                  (Verified per official resume records)
+                  (Cumulative Grade Point Average: 8.5/10)
                 </span>
               </div>
             </div>

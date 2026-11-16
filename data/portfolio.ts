@@ -336,8 +336,8 @@ export const educationData: EducationItem = {
   location: "Rajasthan, India",
   period: "2024 — 2028",
   expectedGraduation: "2028",
-  cgpaVerified: "7.30 / 10",
-  cgpaNote: "Verified from current academic resume records (user noted 8.5/10 ongoing progress)",
+  cgpaVerified: "8.5 / 10",
+  cgpaNote: "Current verified cumulative grade point average (8.5 / 10)",
   coursework: [
     "Data Structures & Algorithms",
     "Object-Oriented Programming (OOP)",

@@ -28,7 +28,7 @@ export const siteConfig: SiteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://achint-jain.vercel.app",
   email: "jachint85@gmail.com",
   github: "https://github.com/Achint-18",
-  linkedin: "https://www.linkedin.com/in/achint-jain",
+  linkedin: "https://www.linkedin.com/in/achint-jain-82ba58329/",
   ogImage: "/og-image.png",
   description:
     "Portfolio of Achint Jain, a Computer Science & Engineering undergraduate from Rajasthan, India. Focused on Artificial Intelligence, Machine Learning, RAG pipelines, FastAPI backends, and practical Generative AI applications.",

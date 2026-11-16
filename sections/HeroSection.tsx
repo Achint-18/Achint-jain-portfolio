@@ -8,9 +8,6 @@ import {
   FileText,
   MapPin,
   Sparkles,
-  ExternalLink,
-  Github,
-  Linkedin,
 } from "lucide-react";
 
 interface HeroSectionProps {

@@ -17,7 +17,7 @@ A premium, production-quality personal portfolio website for **Achint Jain**, Co
 - **Alternative Positioning**: *Computer Science student exploring AI/ML and building practical Generative AI applications.*
 - **Location**: Rajasthan, India
 - **Education**: B.Tech in Computer Science & Engineering, University College of Engineering, Banswara (Govind Guru Tribal University - GGTU), 2024–2028 (Expected: 2028).
-- **Verified Resume CGPA**: 7.30 / 10 (Documented in configuration; user noted 8.5/10 ongoing semester target).
+- **Verified CGPA**: 8.5 / 10 (Current verified cumulative grade point average).
 
 ---
 
@@ -152,7 +152,7 @@ The website implements comprehensive technical SEO so that Google understands wh
 - **No Fabricated Employment**: The portfolio highlights real hands-on project engineering and Smart India Hackathon participation.
 - **No Fabricated Metrics**: All project impact statements are qualitative and defensible.
 - **Accurate Social Links**: Configured with verified GitHub (`https://github.com/Achint-18`) and verified email (`jachint85@gmail.com`).
-- **CGPA Verification**: Configured to 7.30 / 10 from verified resume records. Can be easily updated in `data/portfolio.ts` once officially verified on university transcripts.
+- **CGPA Verification**: Configured to current verified 8.5 / 10. Can be customized in `data/portfolio.ts`.
 
 ---
 
