@@ -109,6 +109,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark scroll-smooth">
       <head>
+        <meta name="google-site-verification" content="FHjxOIQKBdEBGPCJI46nwcAWeo2RsWTUWNOAg2CPifY" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <script
           type="application/ld+json"
