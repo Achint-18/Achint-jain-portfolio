@@ -300,7 +300,7 @@ export const experienceData: ExperienceItem[] = [
     id: "hands-on-ai-dev",
     title: "Hands-on AI & Software Project Development",
     organization: "Independent & Collaborative Engineering",
-    period: "2024 — Present",
+    period: "2026 — Present",
     type: "Project Development",
     summary:
       "Designing and architecting practical AI applications, integrating modern LLMs with custom retrieval systems and full-stack interfaces.",
@@ -316,7 +316,7 @@ export const experienceData: ExperienceItem[] = [
     id: "sih-participation",
     title: "Smart India Hackathon (SIH) Participant",
     organization: "Smart India Hackathon",
-    period: "2024",
+    period: "2026",
     type: "Hackathon & Leadership",
     summary:
       "Collaborated in a high-intensity national hackathon environment addressing complex real-world problem statements.",
@@ -345,6 +345,10 @@ export const educationData: EducationItem = {
     "Operating Systems",
     "Computer Networks",
     "Discrete Mathematics",
+    "Theory Of Computation",
+    "Compiler Design",
+    "Software Engineering",
+    "Analysis Of Algorithms"
   ],
 };
 
